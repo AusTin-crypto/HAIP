@@ -1,12 +1,5 @@
 package com.example.control_majnu;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.view.menu.MenuAdapter;
-import androidx.core.app.ActivityOptionsCompat;
-import androidx.core.view.ViewCompat;
-import androidx.recyclerview.widget.RecyclerView;
-
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,8 +7,11 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
-
+import androidx.core.app.ActivityOptionsCompat;
+import androidx.core.view.ViewCompat;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
@@ -106,7 +102,7 @@ public class SeekerMain extends AppCompatActivity implements DuoMenuView.OnMenuC
 
     public void showComments(View view)
     {
-//        startActivity(new Intent(SeekerMain.this , ShowComments.class));
+        startActivity(new Intent(SeekerMain.this , ShowComments.class));
     }
 
     public void retrieve()
@@ -217,7 +213,7 @@ public class SeekerMain extends AppCompatActivity implements DuoMenuView.OnMenuC
         switch(position)
         {
             case 2:
-//                startActivity(new Intent(SeekerMain.this , AboutUs.class));
+                startActivity(new Intent(SeekerMain.this , AboutUs.class));
                 break;
             case 1:
                 //Toast.makeText(this , "WOrking " , Toast.LENGTH_SHORT).show();
@@ -266,3 +262,8 @@ public class SeekerMain extends AppCompatActivity implements DuoMenuView.OnMenuC
 
     }
 }
+
+
+
+
+

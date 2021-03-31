@@ -1,4 +1,4 @@
-apackage com.example.control_majnu;
+package com.example.control_majnu;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;

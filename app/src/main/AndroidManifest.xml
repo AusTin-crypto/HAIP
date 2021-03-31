@@ -15,9 +15,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Control_majnu">
-        <activity android:name=".SeekerProfile"></activity>
+        <activity android:name=".AboutUs" />
+        <activity android:name=".PhotoUpload" />
+        <activity android:name=".EditSeeker" />
+        <activity android:name=".ShowComments" />
+        <activity
+            android:name=".SeekerMain"
+            android:label="@string/title_activity_seeker_main"
+            android:theme="@style/Theme.Control_majnu.NoActionBar" />
+        <activity android:name=".SeekerProfile" />
         <activity android:name=".RecruiterProfile" />
-        <activity android:name=".SeekerMain" />
         <activity android:name=".RecruiterMain" />
         <activity android:name=".Signup" />
         <activity android:name=".MainActivity">
