@@ -15,6 +15,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Control_majnu">
+        <activity android:name=".EditRecruiter"></activity>
         <activity android:name=".AboutUs" />
         <activity android:name=".PhotoUpload" />
         <activity android:name=".EditSeeker" />
